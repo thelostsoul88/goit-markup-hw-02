@@ -1,0 +1,264 @@
+:root {
+  --primary-text-color: #212121;
+  --primary-black-color: #000000;
+  --primary-white-color: #ffffff;
+  --button-color: #188ce8;
+  --button-bgc-color: #f5f4fa;
+  --title-color: #757575;
+  --accent-color: #2196f3;
+  --bg-footer-color: #2f303a;
+  --bg-empl: #f5f4fa;
+  --address-footer: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--primary-white-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+/*---------------------------------------------------------------- HEADER -------------------------------------------------- */
+
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo span {
+  color: var(--primary-black-color);
+}
+
+.header-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.header-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts-list .link {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--accent-color);
+}
+
+/*------------------------------------------------------------- END HEADER ----------------------------------------------------*/
+
+/*--------------------------------------------------------------- HERO ----------------------------------------------------------*/
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.hero {
+  background-color: var(--bg-footer-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.modal-button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-left: 825px;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  background-color: var(--button-color);
+}
+
+/*---------------------------------------------------------------- END HERO -----------------------------------------------------*/
+
+/*---------------------------------------------------------------- FEATURES -----------------------------------------------------*/
+
+.features-list .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-list .text {
+  color: var(--title-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/*-------------------------------------------------------------- END FEATURES ---------------------------------------------------*/
+
+/*--------------------------------------------------------------- PROJECT -------------------------------------------------------*/
+
+.style-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+/*-------------------------------------------------------------- END PROJECT ---------------------------------------------------*/
+
+/*---------------------------------------------------------------- EMPL ------------------------------------------------------*/
+
+.empl {
+  background-color: var(--bg-empl);
+}
+
+.subtitle-empl {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.empl-list .text {
+  color: var(--title-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.bgc {
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+  background: var(--primary-white-color);
+}
+
+/*---------------------------------------------------------------- END EMPL ---------------------------------------------------*/
+
+/*---------------------------------------------------------------- FOOTER -----------------------------------------------------*/
+
+.footer {
+  background-color: var(--bg-footer-color);
+}
+
+.logo .studio {
+  color: var(--primary-white-color);
+}
+
+.address-list .link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+address .link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--address-footer);
+}
+
+address .link:hover,
+address .link:focus {
+  color: var(--accent-color);
+}
+.google-link:hover,
+.google-link:focus {
+  color: var(--accent-color);
+}
+
+.google-link {
+  color: var(--primary-white-color);
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*-------------------------------------------------------------- END FOOTER -----------------------------------------------------*/
+
+/*-------------------------------------------------------------- PORTFOLIO ------------------------------------------------------*/
+
+.mdl-button-list {
+  background-color: var(--button-bgc-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  list-style: none;
+}
+
+.mdl-button-list:hover,
+.mdl-button-list:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--title-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/*------------------------------------------------------------ END PORTFOLIO ------------------------------------------------------*/
