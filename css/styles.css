@@ -3,7 +3,7 @@
   --primary-black-color: #000000;
   --primary-white-color: #ffffff;
   --button-color: #188ce8;
-  --button-bgc-color: #f5f4fa;
+  --button-bg-color: #f5f4fa;
   --title-color: #757575;
   --accent-color: #2196f3;
   --bg-footer-color: #2f303a;
@@ -231,7 +231,7 @@ address .link:focus {
 /*-------------------------------------------------------------- PORTFOLIO ------------------------------------------------------*/
 
 .mdl-button-list {
-  background-color: var(--button-bgc-color);
+  background-color: var(--button-bg-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
